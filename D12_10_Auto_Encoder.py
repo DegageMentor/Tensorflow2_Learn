@@ -15,7 +15,7 @@ assert tf.__version__.startswith('2.')
 def save_images(imgs, name):
     new_im = Image.new('L', (280, 280))
 
-    index = 0;
+    index = 0
 
     for i in range(0, 280, 28):
         for j in range(0, 280, 28):
